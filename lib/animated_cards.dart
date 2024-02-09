@@ -14,6 +14,7 @@ class _AnimatedCardsState extends State<AnimatedCards> {
   bool isHovered4 = false;
   @override
 
+
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black87,
@@ -33,6 +34,7 @@ class _AnimatedCardsState extends State<AnimatedCards> {
                   isHovered1 = false;
                 });
               },
+
               child: Stack(
                 children: [
                   AnimatedContainer(
