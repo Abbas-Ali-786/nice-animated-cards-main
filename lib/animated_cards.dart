@@ -13,6 +13,7 @@ class _AnimatedCardsState extends State<AnimatedCards> {
   bool isHovered3 = false;
   bool isHovered4 = false;
   @override
+
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black87,
@@ -65,6 +66,7 @@ class _AnimatedCardsState extends State<AnimatedCards> {
                       ),
                     ),
                   ),
+                  
                   AnimatedPositioned(
                     duration: const Duration(milliseconds: 500),
                     curve: Curves.easeInOut,
